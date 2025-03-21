@@ -1,0 +1,5 @@
+word = input("Enter the word: ")
+upper_case = sum(1 for letter in word if letter.isupper())
+lower_case = sum(1 for letter in word if letter.islower())
+print("Numnber of upper case letters: ", upper_case)
+print("Numnber of lower case letters: ", lower_case)
